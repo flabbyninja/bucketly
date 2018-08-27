@@ -1,21 +1,10 @@
-var fs = require("fs")
-var AWS = require("aws-sdk")
-
-var config = {
-    s3ForcePathStyle: true,
-    accessKeyId: "ACCESS_KEY_ID",
-    secretAccessKey: "SECRET_ACCESS_KEY",
-    endpoint: new AWS.Endpoint("http://localhost:4569")
-}
-
-var client = new AWS.S3(config)
+const fs = require('fs');
+const AWS = require('aws-sdk');
+let client;
 
 const checkBucketExists = async (params) => {
-    const options = {
-        Bucket: params.bucket
-    };
     try {
-        await params.client.headBucket(options).promise();
+        await client.headBucket(params).promise();
         return true;
     } catch (error) {
         if (error.statusCode === 404) {
@@ -25,29 +14,50 @@ const checkBucketExists = async (params) => {
     }
 };
 
-var params = {
-    bucket: "test-bucket",
-    client: client
-};
+function createBucketIfNotExists(params) {
+    checkBucketExists(params).then((result) => {
+        if (!result) {
+            console.log('Bucket does not exist: creating %s', params.Bucket);
+            // create default bucket
+            let createBucketParams = {
+                Bucket: params.Bucket,
+                CreateBucketConfiguration: {}
+            };
 
-checkBucketExists(params).then( (result) => console.log(result));
+            client.createBucket(createBucketParams, function (err, data) {
+                console.log(err, data);
+            });
+        }
+    });
+}
 
-// create default bucket
-var params = {
-    Bucket: "test-bucket",
-    CreateBucketConfiguration: {}
-};
+function uploadFile(uploadParams) {
+    client.upload(uploadParams, (err, data) => {
+        if (err) {
+            console.log(err, data);
+        } else {
+            console.log(data);
+        }
+    });
+}
 
-// client.createBucket(params, function (err, data) {
-//     console.log(err, data)
-// });
-//
-// var params = {
-//     Key: "test-image",
-//     Bucket: "test-bucket",
-//     Body: fs.createReadStream("./image.png")
-// }
-//
-// client.upload(params, function uploadCallback(err, data) {
-//     console.log(err, data)
-// })
+function main() {
+    client = new AWS.S3({
+        s3ForcePathStyle: true,
+        accessKeyId: 'ACCESS_KEY_ID',
+        secretAccessKey: 'SECRET_ACCESS_KEY',
+        endpoint: new AWS.Endpoint('http://localhost:4569')
+    });
+
+    createBucketIfNotExists({
+        Bucket: 'test-bucket'
+    });
+
+    uploadFile({
+        Key: 'test-image',
+        Bucket: 'test-bucket',
+        Body: fs.createReadStream('./image.png')
+    });
+}
+
+main();
