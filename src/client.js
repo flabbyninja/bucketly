@@ -10,26 +10,44 @@ var config = {
 
 var client = new AWS.S3(config)
 
+const checkBucketExists = async (params) => {
+    const options = {
+        Bucket: params.bucket
+    };
+    try {
+        await params.client.headBucket(options).promise();
+        return true;
+    } catch (error) {
+        if (error.statusCode === 404) {
+            return false;
+        }
+        throw error;
+    }
+};
+
+var params = {
+    bucket: "test-bucket",
+    client: client
+};
+
+checkBucketExists(params).then( (result) => console.log(result));
+
 // create default bucket
 var params = {
     Bucket: "test-bucket",
     CreateBucketConfiguration: {}
 };
-client.createBucket(params, function(err, data) {
-   if (err) {
-       console.log(err, err.stack);
-   }
-   else {
-       console.log(data)
-   }
-});
 
-var params = {
-    Key: "Key",
-    Bucket: "test-bucket",
-    Body: fs.createReadStream("./image.png")
-}
-
-client.upload(params, function uploadCallback (err, data) {
-    console.log(err, data)
-})
+// client.createBucket(params, function (err, data) {
+//     console.log(err, data)
+// });
+//
+// var params = {
+//     Key: "test-image",
+//     Bucket: "test-bucket",
+//     Body: fs.createReadStream("./image.png")
+// }
+//
+// client.upload(params, function uploadCallback(err, data) {
+//     console.log(err, data)
+// })
