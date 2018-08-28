@@ -2,7 +2,7 @@ const fs = require('fs');
 const AWS = require('aws-sdk');
 let client;
 
-const checkBucketExists = async (params) => {
+async function checkBucketExists(params) {
     try {
         await client.headBucket(params).promise();
         return true;
@@ -25,7 +25,11 @@ function createBucketIfNotExists(params) {
             };
 
             client.createBucket(createBucketParams, function (err, data) {
-                console.log(err, data);
+                if (err) {
+                    console.log(err, data);
+                } else {
+                    console.log(data);
+                }
             });
         }
     });
