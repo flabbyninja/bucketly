@@ -26,7 +26,7 @@ class Clock extends Component {
     render() {
         return (
             <div className="Clock">
-                <h2>{new Date().toLocaleTimeString()}</h2>
+                <h2>{new Date().toLocaleTimeString('en-GB', {weekday: 'short', day: 'numeric', month: 'short', year: 'numeric'})}</h2>
             </div>
         );
     }

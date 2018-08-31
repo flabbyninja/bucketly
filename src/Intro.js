@@ -7,9 +7,9 @@ class Intro extends Component {
             <div className="jumbotron">
                 <div class="container">
                     <Clock/>
-                    <h1>Introduction</h1>
-                    <p>Scalable blah blah whatever</p>
-                    <a href='#' class="btn btn-primary btn">More...</a>
+                    <h1>Bucketly</h1>
+                    <p>Browse the contents of S3 buckets easily</p>
+                    <a tabindex="0" class="btn btn-primary btn">More...</a>
                 </div>
             </div>
         );

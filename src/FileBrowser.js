@@ -8,12 +8,12 @@ class FileBrowser extends Component {
                     <div class="col-md-4">
                         <h3>Heading 1</h3>
                         <p>Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah</p>
-                        <p><a href="#" class="btn btn-default btn-lg">More...</a></p>
+                        <p><a tabindex="0" class="btn btn-default btn-lg">More...</a></p>
                     </div>
                     <div className="col-md-8">
                         <h3>Heading 2</h3>
                         <p>Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah</p>
-                        <p><a href="#" className="btn btn-default btn-lg">More...</a></p>
+                        <p><a tabindex="0" className="btn btn-default btn-lg">More...</a></p>
                     </div>
                 </div>
             </div>
