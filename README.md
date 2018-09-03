@@ -1,3 +1,11 @@
+# Bucketly
+
+Create a clean interface to view data in S3 or S3 compatible buckets. Uses `s3rver` to mock local S3 access, and `reactstrap` for Bootstrap 4 React components. 
+
+App under active development, starting ~Sept 2018.
+
+### Original `create-react-app` generated info
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
