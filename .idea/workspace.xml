@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb4accae-e9f5-4ddb-964e-e62ebadc2d00" name="Default Changelist" comment="">
+    <list default="true" id="eb4accae-e9f5-4ddb-964e-e62ebadc2d00" name="Default Changelist" comment="Migrate Navbar to use reactstrap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BucketApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BucketApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileBrowser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeBrowser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeBrowser.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +42,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="2" />
           <entry key="ico" value="1" />
-          <entry key="js" value="43" />
+          <entry key="js" value="48" />
           <entry key="json" value="12" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
@@ -57,7 +54,7 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="43" />
+          <entry key="JavaScript" value="48" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -67,9 +64,9 @@
           <entry key="css" value="163" />
           <entry key="gitignore" value="7" />
           <entry key="html" value="60" />
-          <entry key="js" value="10056" />
+          <entry key="js" value="10744" />
           <entry key="json" value="191" />
-          <entry key="txt" value="231" />
+          <entry key="txt" value="442" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -77,8 +74,8 @@
           <entry key="CSS" value="163" />
           <entry key="HTML" value="60" />
           <entry key="JSON" value="191" />
-          <entry key="JavaScript" value="10056" />
-          <entry key="PLAIN_TEXT" value="238" />
+          <entry key="JavaScript" value="10744" />
+          <entry key="PLAIN_TEXT" value="449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -94,43 +91,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileBrowser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Intro.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/s3rver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="230">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -138,8 +104,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TreeBrowser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="230">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BucketApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,33 +125,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/image.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Footer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="506">
+              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,20 +170,20 @@
         <option value="$PROJECT_DIR$/src/client.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/TreeBrowser.js" />
         <option value="$PROJECT_DIR$/src/ThemeSwitcher.js" />
         <option value="$PROJECT_DIR$/src/BucketApp.css" />
         <option value="$PROJECT_DIR$/src/Footer.js" />
-        <option value="$PROJECT_DIR$/src/BucketApp.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.eslintrc.json" />
-        <option value="$PROJECT_DIR$/src/FileBrowser.js" />
         <option value="$PROJECT_DIR$/src/Clock.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Intro.js" />
+        <option value="$PROJECT_DIR$/src/BucketApp.js" />
+        <option value="$PROJECT_DIR$/src/TreeBrowser.js" />
+        <option value="$PROJECT_DIR$/src/FileBrowser.js" />
         <option value="$PROJECT_DIR$/src/Header.js" />
       </list>
     </option>
@@ -360,11 +315,12 @@
       <created>1535290913262</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1535489456573</updated>
+      <updated>1535979683798</updated>
       <workItem from="1535290916814" duration="4883000" />
       <workItem from="1535315510046" duration="1389000" />
       <workItem from="1535355033907" duration="9837000" />
       <workItem from="1535489360028" duration="97000" />
+      <workItem from="1535979595350" duration="89000" />
     </task>
     <task id="bucketly-1" summary="Rework async processing around create and update">
       <created>1535485820000</created>
@@ -386,7 +342,7 @@
       <option name="project" value="LOCAL" />
       <updated>1535489962538</updated>
     </task>
-    <task active="true" id="bucketly-2" summary="Create skeleton app structure with sample data">
+    <task id="bucketly-2" summary="Create skeleton app structure with sample data">
       <created>1535701713000</created>
       <option name="issue" value="true" />
       <url>https://github.com/flabbyninja/bucketly/issues/2</url>
@@ -394,13 +350,13 @@
       <option name="presentableId" value="bucketly-2" />
       <option name="project" value="bucketly" />
       <option name="type" value="BUG" />
-      <updated>1535705341343</updated>
+      <updated>1535979595181</updated>
       <workItem from="1535705341868" duration="17087000" />
       <workItem from="1535744073351" duration="850000" />
       <workItem from="1535745080965" duration="2582000" />
       <workItem from="1535787931039" duration="2339000" />
       <workItem from="1535815666937" duration="5739000" />
-      <workItem from="1535972951069" duration="1142000" />
+      <workItem from="1535972951069" duration="3075000" />
     </task>
     <task id="LOCAL-00009" summary="Reformat clock output, clean up header">
       <created>1535746358559</created>
@@ -416,7 +372,67 @@
       <option name="project" value="LOCAL" />
       <updated>1535789604874</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Migrate to reactstrap from react-bootstrap">
+      <created>1535974171979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535974171979</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Basic app branding">
+      <created>1535974205312</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535974205312</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Stop clock when clicked on">
+      <created>1535974232380</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535974232380</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add expandable description section">
+      <created>1535974259672</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1535974259672</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Project based linting rules">
+      <created>1535974280247</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1535974280247</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Remove clock">
+      <created>1535979521781</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1535979521781</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Migrate Navbar to use reactstrap">
+      <created>1535979534722</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1535979534722</updated>
+    </task>
+    <task active="true" id="bucketly-3" summary="Implement first version TreeBrowser">
+      <created>1535976070000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/flabbyninja/bucketly/issues/3</url>
+      <option name="number" value="3" />
+      <option name="presentableId" value="bucketly-3" />
+      <option name="project" value="bucketly" />
+      <option name="type" value="BUG" />
+      <updated>1535979683806</updated>
+      <workItem from="1535979684439" duration="960000" />
+    </task>
+    <option name="localTasksCounter" value="18" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
     <servers>
@@ -428,7 +444,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64070000" />
+    <option name="totallyTimeSpent" value="67052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,21 +479,21 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22377622" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25139222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29208633" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3151079" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3294964" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40022174" />
+      <window_info active="true" anchor="bottom" x="521" y="64" width="493" height="695" id="Run" order="10" visible="true" weight="0.22616407" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,7 +513,14 @@
     <MESSAGE value="Convert check to async function" />
     <MESSAGE value="Reformat clock output, clean up header" />
     <MESSAGE value="Fix class attribute mappings in JSX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix class attribute mappings in JSX" />
+    <MESSAGE value="Migrate to reactstrap from react-bootstrap" />
+    <MESSAGE value="Basic app branding" />
+    <MESSAGE value="Stop clock when clicked on" />
+    <MESSAGE value="Add expandable description section" />
+    <MESSAGE value="Project based linting rules" />
+    <MESSAGE value="Remove clock" />
+    <MESSAGE value="Migrate Navbar to use reactstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate Navbar to use reactstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,16 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BucketApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34086" />
@@ -614,29 +627,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileBrowser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TreeBrowser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/reactstrap/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -673,20 +665,54 @@
     <entry file="file://$PROJECT_DIR$/src/image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Intro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="23">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BucketApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeBrowser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileBrowser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        <state relative-caret-position="506">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
