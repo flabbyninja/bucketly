@@ -1,14 +1,25 @@
 import React, {Component} from 'react';
+import {Collapse} from 'reactstrap';
 import Clock from './Clock';
 
 class Intro extends Component {
     constructor(props) {
         super(props);
-        this.testClick = this.testClick.bind(this);
+        this.infoClicked = this.infoClicked.bind(this);
+
+        this.state = {
+            collapse: false,
+            label: 'More...'
+        };
     }
 
-    testClick(e) {
+    infoClicked() {
         console.log('test value');
+        let targetLabel = 'More...';
+        if (this.state.label === 'More...') {
+            targetLabel = 'Less...';
+        }
+        this.setState({collapse: !this.state.collapse, label: targetLabel});
     }
 
     render() {
@@ -17,13 +28,14 @@ class Intro extends Component {
                 <div className="container">
                     <Clock/>
                     <h1>Bucketly</h1>
-                    <p>Clean, simple interface to browse the contents of S3 buckets</p>
-                    <a tabIndex="0" className="btn btn-primary btn" onClick={this.testClick}>More...</a>
+                    <Collapse isOpen={this.state.collapse}>
+                         A clean, simple interface to browse the content of S3 buckets
+                    </Collapse>
+                    <a tabIndex="0" className="btn btn-primary" onClick={this.infoClicked}>{this.state.label}</a>
                 </div>
             </div>
         );
     }
-
 
 }
 
