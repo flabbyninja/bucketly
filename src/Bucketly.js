@@ -8,30 +8,30 @@ import Footer from './Footer';
 class BucketApp extends Component {
     constructor(props) {
         super(props);
-        this.dirs = [
+        this.buckets = [
             'dir1',
             'dir2',
             'dir3',
             'dir4',
             'dir5'
         ];
-        this.files = [
+        this.objects = [
             'file1',
             'file2',
             'file3',
             'file4',
             'file5'
         ];
-        this.getDirectories = this.getDirectories.bind(this);
-        this.getFiles = this.getFiles.bind(this);
+        this.getBuckets = this.getBuckets.bind(this);
+        this.getObjects = this.getObjects.bind(this);
     }
 
-    getDirectories() {
-        return this.dirs;
+    getBuckets() {
+        return this.buckets;
     }
 
-    getFiles() {
-        return this.files;
+    getObjects() {
+        return this.objects;
     }
 
     render() {
@@ -42,12 +42,12 @@ class BucketApp extends Component {
                 <div className="container" id="browser">
                     <div className="row">
                         <div className="col-md-4">
-                            <h3>Directories</h3>
-                            <Browser entries={this.getDirectories()}/>
+                            <h3>Buckets</h3>
+                            <Browser entries={this.getBuckets()}/>
                         </div>
                         <div className="col-md-8">
-                            <h3>Files</h3>
-                            <Browser entries={this.getFiles()}/>
+                            <h3>Objects</h3>
+                            <Browser entries={this.getObjects()}/>
                         </div>
                     </div>
                 </div>
