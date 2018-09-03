@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bucketly",
+  "name": "Clean, simple interface to browse the content of S3 buckets",
   "icons": [
     {
       "src": "favicon.ico",
