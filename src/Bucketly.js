@@ -6,7 +6,6 @@ import Browser from './Browser';
 import Footer from './Footer';
 
 class BucketApp extends Component {
-
     constructor(props) {
         super(props);
         this.dirs = [

@@ -18,13 +18,20 @@
     background-color: #eee;
 }
 
+.browser-entry-selected {
+    margin: 5px;
+    padding: 5px;
+    background-color: cornflowerblue;
+}
+
 .browser-entry span {
     font-size: 1.2em;
     text-decoration: none;
     color: #333;
 }
 
-#browser {
-    border-style: solid;
-    border: 10px;
+.browser-entry-selected span {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
 }
