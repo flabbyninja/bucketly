@@ -13,7 +13,6 @@ class Intro extends Component {
     }
 
     infoClicked() {
-        console.log('test value');
         let targetLabel = 'More...';
         if (this.state.label === 'More...') {
             targetLabel = 'Less...';
@@ -27,7 +26,7 @@ class Intro extends Component {
                 <div className="container">
                     <h1>Bucketly</h1>
                     <Collapse isOpen={this.state.collapse}>
-                         A clean, simple interface to browse the content of S3 buckets
+                        <p>A clean, simple interface to browse the content of S3 buckets</p>
                     </Collapse>
                     <a tabIndex="0" className="btn btn-primary" onClick={this.infoClicked}>{this.state.label}</a>
                 </div>
