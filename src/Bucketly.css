@@ -1,0 +1,30 @@
+.App {
+    text-align: center;
+}
+
+.Clock {
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    font-size: small;
+    margin: 20px;
+}
+
+.browser-entry {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+}
+
+.browser-entry span {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+}
+
+#browser {
+    border-style: solid;
+    border: 10px;
+}
