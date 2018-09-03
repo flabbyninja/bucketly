@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Collapse} from 'reactstrap';
-import Clock from './Clock';
 
 class Intro extends Component {
     constructor(props) {
@@ -26,7 +25,6 @@ class Intro extends Component {
         return (
             <div className="jumbotron">
                 <div className="container">
-                    <Clock/>
                     <h1>Bucketly</h1>
                     <Collapse isOpen={this.state.collapse}>
                          A clean, simple interface to browse the content of S3 buckets
