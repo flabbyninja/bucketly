@@ -1,30 +1,68 @@
 import React, {Component} from 'react';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem
+} from 'reactstrap';
 
 class Header extends Component {
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            isOpen: false
+        };
+    }
+
+    toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
+    }
+
     render() {
         return (
-            <div className="Header">
-                <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"/>
-                    </button>
-                    <a className="navbar-brand" tabIndex="0">Menu</a>
-                    <div className="collapse navbar-collapse" id="navbarsExampleDefault">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
-                                <a className="nav-link" tabIndex="0">Home <span className="sr-only">(current)</span></a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" tabIndex="0">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <form className="form-inline my-2 my-lg-0">
-                        <input className="form-control mr-sm-2" type="text" placeholder="Search"/>
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search
-                        </button>
-                    </form>
-                </nav>
+            <div>
+                <Navbar color="dark" dark expand="md">
+                    <NavbarBrand href="/">Bucketly</NavbarBrand>
+                    <NavbarToggler onClick={this.toggle}/>
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink href="#">Link1</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="https://github.com/flabbyninja/bucketly">GitHub</NavLink>
+                            </NavItem>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Options
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                    <DropdownItem>
+                                        Option 1
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        Option 2
+                                    </DropdownItem>
+                                    <DropdownItem divider/>
+                                    <DropdownItem>
+                                        Reset
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+                        </Nav>
+                    </Collapse>
+                </Navbar>
             </div>
         );
     }
