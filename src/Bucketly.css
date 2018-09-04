@@ -35,3 +35,7 @@
     text-decoration: none;
     color: #333;
 }
+
+.checkmark {
+    float: right;
+}
