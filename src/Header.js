@@ -13,6 +13,8 @@ import {
     DropdownItem
 } from 'reactstrap';
 
+// TODO: Remove reliance on reactstrap and implement in native bootstrap
+
 class Header extends Component {
     constructor(props) {
         super(props);

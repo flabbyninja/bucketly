@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCheck} from '@fortawesome/free-solid-svg-icons';
+import PropTypes from 'prop-types';
 
 class BrowserEntry extends Component {
     constructor(props) {
@@ -22,11 +23,16 @@ class BrowserEntry extends Component {
             <div className={this.state.selected ? 'browser-entry-selected' : 'browser-entry'} onClick={this.handleClick}>
                 <span key={this.props.id}>{this.props.name}</span>
                 {this.state.selected &&
-                    <span className="checkmark"><FontAwesomeIcon icon={faCheck}/></span>
+                <span className="checkmark"><FontAwesomeIcon icon={faCheck}/></span>
                 }
             </div>
         );
     }
+};
+
+BrowserEntry.propTypes = {
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired
 };
 
 export default BrowserEntry;
