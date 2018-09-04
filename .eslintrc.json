@@ -1,5 +1,9 @@
 {
-    "extends": "standard",
+    "extends": [
+        "standard",
+        "plugin:react/recommended"
+    ],
+    "plugins": ["eslint-plugin-react"],
     "rules" : {
         "indent": ["error", 4],
         "semi": ["error", "always"],
