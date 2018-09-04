@@ -1,3 +1,8 @@
+body {
+    font-family: Calibri;
+    color: darkslategrey;
+}
+
 .App {
     text-align: center;
 }
@@ -15,7 +20,7 @@
 .browser-entry {
     margin: 5px;
     padding: 5px;
-    background-color: #eee;
+    /*background-color: #eee;*/
 }
 
 .browser-entry-selected {
