@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCheck} from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
+import autoBind from 'react-autobind';
 
 class BrowserEntry extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ class BrowserEntry extends Component {
         this.state = {
             selected: false
         };
-        this.handleClick = this.handleClick.bind(this);
+        autoBind(this);
     }
 
     handleClick(e) {
@@ -23,7 +24,7 @@ class BrowserEntry extends Component {
             <div className={this.state.selected ? 'browser-entry-selected' : 'browser-entry'} onClick={this.handleClick}>
                 <span key={this.props.id}>{this.props.name}</span>
                 {this.state.selected &&
-                <span className="checkmark"><FontAwesomeIcon icon={faCheck}/></span>
+                <span className="checkmark-span"><FontAwesomeIcon className="checkmark-selected" icon={faCheck} size="xs"/></span>
                 }
             </div>
         );

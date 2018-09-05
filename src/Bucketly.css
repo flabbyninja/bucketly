@@ -41,6 +41,11 @@ body {
     color: #333;
 }
 
-.checkmark {
+.checkmark-span {
     float: right;
+}
+
+.checkmark-selected {
+    color: white;
+    vertical-align: middle;
 }

@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import {Collapse} from 'reactstrap';
+import autoBind from 'react-autobind';
 
 class Intro extends Component {
     constructor(props) {
         super(props);
-        this.infoClicked = this.infoClicked.bind(this);
-
         this.state = {
             collapse: false,
             label: 'More...'
         };
+        autoBind(this);
     }
 
     infoClicked() {

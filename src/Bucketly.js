@@ -4,6 +4,7 @@ import Header from './Header';
 import Intro from './Intro';
 import Browser from './Browser';
 import Footer from './Footer';
+import autoBind from 'react-autobind';
 
 class BucketApp extends Component {
     constructor(props) {
@@ -22,8 +23,7 @@ class BucketApp extends Component {
             'file4',
             'file5'
         ];
-        this.getBuckets = this.getBuckets.bind(this);
-        this.getObjects = this.getObjects.bind(this);
+        autoBind(this);
     }
 
     getBuckets() {

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import autoBind from 'react-autobind';
 
 class Clock extends Component {
     constructor(props) {
         super(props);
         this.state = {date: new Date()};
-        this.componentWillUnmount = this.componentWillUnmount.bind(this);
+        autoBind(this);
     }
 
     componentDidMount() {

@@ -12,17 +12,17 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import autoBind from 'react-autobind';
 
 // TODO: Remove reliance on reactstrap and implement in native bootstrap
 
 class Header extends Component {
     constructor(props) {
         super(props);
-
-        this.toggle = this.toggle.bind(this);
         this.state = {
             isOpen: false
         };
+        autoBind(this);
     }
 
     toggle() {

@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import BrowserEntry from './BrowserEntry';
 import PropTypes from 'prop-types';
+import autoBind from 'react-autobind';
 
 class Browser extends Component {
+    // TODO: implement tracking of selected items at browser level. Maintain list of selected. Create utility function that can determine select status based on existence in that structure
+
     constructor(props) {
         super(props);
-        this.handleClick = this.handleClick.bind(this);
+        autoBind(this);
     }
 
     handleClick(e) {
