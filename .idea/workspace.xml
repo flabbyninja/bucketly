@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb4accae-e9f5-4ddb-964e-e62ebadc2d00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BrowserEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrowserEntry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bucketly.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bucketly.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bucketly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bucketly.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Intro.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,10 +65,10 @@
           <entry key="css" value="504" />
           <entry key="gitignore" value="7" />
           <entry key="html" value="60" />
-          <entry key="js" value="14214" />
+          <entry key="js" value="14396" />
           <entry key="json" value="306" />
           <entry key="md" value="410" />
-          <entry key="txt" value="833" />
+          <entry key="txt" value="913" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -83,9 +76,9 @@
           <entry key="CSS" value="504" />
           <entry key="HTML" value="60" />
           <entry key="JSON" value="306" />
-          <entry key="JavaScript" value="14214" />
+          <entry key="JavaScript" value="14396" />
           <entry key="Markdown" value="410" />
-          <entry key="PLAIN_TEXT" value="840" />
+          <entry key="PLAIN_TEXT" value="920" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -124,20 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bucketly.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="400">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BrowserEntry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <state relative-caret-position="607">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -172,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Browser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="515">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -250,13 +243,13 @@
         <option value="$PROJECT_DIR$/src/Footer.js" />
         <option value="$PROJECT_DIR$/.eslintrc.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/Browser.js" />
         <option value="$PROJECT_DIR$/src/Clock.js" />
         <option value="$PROJECT_DIR$/src/Bucketly.js" />
         <option value="$PROJECT_DIR$/src/Header.js" />
         <option value="$PROJECT_DIR$/src/Intro.js" />
-        <option value="$PROJECT_DIR$/src/BrowserEntry.js" />
         <option value="$PROJECT_DIR$/src/Bucketly.css" />
+        <option value="$PROJECT_DIR$/src/Browser.js" />
+        <option value="$PROJECT_DIR$/src/BrowserEntry.js" />
       </list>
     </option>
   </component>
@@ -287,10 +280,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1295" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -583,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536096623565</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Migrate to react-autobind">
+      <created>1536144578822</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1536144578822</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
     <servers>
@@ -595,7 +595,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87236000" />
+    <option name="totallyTimeSpent" value="90114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +607,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.20066006" />
@@ -685,7 +685,8 @@
     <MESSAGE value="Add react linting rules to properly validate JSX" />
     <MESSAGE value="Add check mark on select using font awesome" />
     <MESSAGE value="Highlight checkmark using react-fontawesome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Highlight checkmark using react-fontawesome" />
+    <MESSAGE value="Migrate to react-autobind" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate to react-autobind" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -730,13 +731,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -888,10 +882,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bucketly.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Browser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="515">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -900,18 +908,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BrowserEntry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="607">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bucketly.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
         </state>
       </provider>
     </entry>

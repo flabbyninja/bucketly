@@ -11,16 +11,15 @@ class Browser extends Component {
         autoBind(this);
     }
 
-    handleClick(e) {
+    handleClick(v) {
         // e.persist();
-        this.setState({selected: !this.state.selected});
-        console.log('Clicked on: %s', e.target.innerText);
+        console.log('Clicked on: %s', v);
     }
 
     render() {
         return (
             <div className="browser">
-                {this.props.entries.map((name, id) => <BrowserEntry key={id} name={name}/>)}
+                {this.props.entries.map((name, id) => <BrowserEntry key={id} name={name} onClick={this.handleClick}/>)}
             </div>
         );
     }

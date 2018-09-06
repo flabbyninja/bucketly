@@ -13,10 +13,9 @@ class BrowserEntry extends Component {
         autoBind(this);
     }
 
-    handleClick(e) {
+    handleClick() {
         // e.persist();
-        this.setState({selected: !this.state.selected});
-        console.log('Clicked on: %s', e.target.innerText);
+        this.props.onClick(this.props.name);
     }
 
     render() {
@@ -33,7 +32,8 @@ class BrowserEntry extends Component {
 
 BrowserEntry.propTypes = {
     id: PropTypes.number.isRequired,
-    name: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired,
+    onClick: PropTypes.func.isRequired
 };
 
 export default BrowserEntry;
