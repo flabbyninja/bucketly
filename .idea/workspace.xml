@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb4accae-e9f5-4ddb-964e-e62ebadc2d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bucketly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bucketly.js" afterDir="false" />
-    </list>
+    <list default="true" id="eb4accae-e9f5-4ddb-964e-e62ebadc2d00" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,7 +19,7 @@
     <session id="1209068403">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.23" value="1" />
@@ -72,7 +67,7 @@
           <entry key="js" value="14521" />
           <entry key="json" value="306" />
           <entry key="md" value="410" />
-          <entry key="txt" value="979" />
+          <entry key="txt" value="1091" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -82,7 +77,7 @@
           <entry key="JSON" value="306" />
           <entry key="JavaScript" value="14521" />
           <entry key="Markdown" value="410" />
-          <entry key="PLAIN_TEXT" value="999" />
+          <entry key="PLAIN_TEXT" value="1111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -145,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BrowserEntry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="565">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -303,30 +298,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bucketly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bucketly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bucketly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bucketly" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bucketly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bucketly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="package&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/package.json&#10;packag&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/node_modules/reactstrap/package.json&#10;rowser&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/BrowserEntry.js&#10;footer&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Footer.js&#10;lock&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Clock.js&#10;clock&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Clock.js&#10;intro&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Intro.js&#10;tabindex&#9;null&#9;null&#10;header&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Header.js&#10;filebro&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/FileBrowser.js&#10;inde&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/index.js&#10;packa&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/package.json" />
@@ -521,7 +493,7 @@
       <workItem from="1536058211270" duration="7945000" />
       <workItem from="1536315415281" duration="8000" />
       <workItem from="1536315475242" duration="180000" />
-      <workItem from="1536315683297" duration="1555000" />
+      <workItem from="1536315683297" duration="1645000" />
     </task>
     <task id="LOCAL-00018" summary="Add sample data and basic logic to populate">
       <created>1535980693123</created>
@@ -607,7 +579,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536221566117</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Config to prevent browser auto launch on npm start">
+      <created>1536320428745</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1536320428745</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Migrate title for browser element to property">
+      <created>1536320449926</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1536320449926</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
     <servers>
@@ -619,7 +605,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92589000" />
+    <option name="totallyTimeSpent" value="92679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,7 +634,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50033003" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49966997" weight="0.4" />
-      <window_info active="true" anchor="bottom" x="521" y="64" width="493" height="695" id="Run" order="10" visible="true" weight="0.22505543" />
+      <window_info anchor="bottom" x="521" y="64" width="493" height="695" id="Run" order="10" weight="0.22505543" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -685,9 +671,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add async checking of bucket existence" />
-    <MESSAGE value="Refactor into base structure to allow init, create, populate flow" />
-    <MESSAGE value="Cpnvert check to async function" />
     <MESSAGE value="Convert check to async function" />
     <MESSAGE value="Reformat clock output, clean up header" />
     <MESSAGE value="Fix class attribute mappings in JSX" />
@@ -710,7 +693,10 @@
     <MESSAGE value="Highlight checkmark using react-fontawesome" />
     <MESSAGE value="Migrate to react-autobind" />
     <MESSAGE value="Pass data back up to main browser to build list of selected items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pass data back up to main browser to build list of selected items" />
+    <MESSAGE value="Config to prevent browser auto launch on npm start" />
+    <MESSAGE value="Migrate title for browser element to property" />
+    <MESSAGE value="metadata updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="metadata updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BrowserEntry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="565">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
