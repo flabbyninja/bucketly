@@ -19,6 +19,9 @@ class Browser extends Component {
     render() {
         return (
             <div className="browser">
+                <div>
+                    <h3>{this.props.title || ''}</h3>
+                </div>
                 {this.props.entries.map((name, id) => <BrowserEntry key={id} name={name} onClick={this.handleClick}/>)}
             </div>
         );
@@ -26,7 +29,8 @@ class Browser extends Component {
 }
 
 Browser.propTypes = {
-    entries: PropTypes.arrayOf(PropTypes.string).isRequired
+    entries: PropTypes.arrayOf(PropTypes.string).isRequired,
+    title: PropTypes.string
 };
 
 export default Browser;

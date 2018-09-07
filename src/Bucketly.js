@@ -42,12 +42,10 @@ class BucketApp extends Component {
                 <div className="container" id="browser">
                     <div className="row">
                         <div className="col-md-4">
-                            <h3>Buckets</h3>
-                            <Browser entries={this.getBuckets()}/>
+                            <Browser title='Buckets' entries={this.getBuckets()}/>
                         </div>
                         <div className="col-md-8">
-                            <h3>Objects</h3>
-                            <Browser entries={this.getObjects()}/>
+                            <Browser title='Objects' entries={this.getObjects()}/>
                         </div>
                     </div>
                 </div>
