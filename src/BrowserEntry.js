@@ -8,20 +8,22 @@ class BrowserEntry extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selected: false
+            selected: false,
+            name: this.props.name
         };
+        this.handleParentClick = this.props.handleClick;
         autoBind(this);
     }
 
     handleClick() {
         // e.persist();
-        this.props.onClick(this.props.name);
+        this.handleParentClick(this.state.name);
     }
 
     render() {
         return (
             <div className={this.state.selected ? 'browser-entry-selected' : 'browser-entry'} onClick={this.handleClick}>
-                <span key={this.props.id}>{this.props.name}</span>
+                <span>{this.state.name}</span>
                 {this.state.selected &&
                 <span className="checkmark-span"><FontAwesomeIcon className="checkmark-selected" icon={faCheck} size="xs"/></span>
                 }
@@ -31,9 +33,8 @@ class BrowserEntry extends Component {
 };
 
 BrowserEntry.propTypes = {
-    id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
-    onClick: PropTypes.func.isRequired
+    handleClick: PropTypes.func.isRequired
 };
 
 export default BrowserEntry;
