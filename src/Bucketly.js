@@ -6,20 +6,30 @@ import Browser from './Browser';
 import Footer from './Footer';
 import autoBind from 'react-autobind';
 
+const NUM_BUCKETS = 10
+const FILE_PER_BUCKET = 5;
+
 class BucketApp extends Component {
     constructor(props) {
         super(props);
-        this.staticData = {
-            'bucket1': ['b1f1', 'b1f2', 'b1f3', 'b1f4', 'b1f5', 'b1f6'],
-            'bucket2': ['b2f1', 'b2f2', 'b2f3', 'b2f4', 'b2f5', 'b2f6'],
-            'bucket3': ['b3f1', 'b3f2', 'b3f3', 'b3f4', 'b3f5', 'b3f6'],
-            'bucket4': ['b4f1', 'b4f2', 'b4f3', 'b4f4', 'b4f5', 'b4f6'],
-            'bucket5': ['b5f1', 'b5f2', 'b5f3', 'b5f4', 'b5f5', 'b5f6']
-        };
+        this.staticData = this.createStaticData(NUM_BUCKETS, FILE_PER_BUCKET)
+
         this.state = {
             objects: []
         };
         autoBind(this);
+    }
+
+    createStaticData(numBuckets, filesPerBucket) {
+        let results = {};
+        for (let x = 0; x < numBuckets; x++) {
+            let thisCycle = [];
+            for (let y = 0; y < filesPerBucket; y++) {
+                thisCycle.push(`b${x + 1}f${y + 1}`);
+            }
+            results[`bucket${x + 1}`] = thisCycle;
+        }
+        return results;
     }
 
     getBuckets() {

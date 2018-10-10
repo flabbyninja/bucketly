@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eb4accae-e9f5-4ddb-964e-e62ebadc2d00" name="Default Changelist" comment="metadata updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrowserEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrowserEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bucketly.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bucketly.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bucketly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bucketly.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -98,14 +97,53 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2034191666">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="23" />
+          <entry key="js" value="471" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="23" />
+          <entry key="JavaScript" value="471" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="JSON" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Bucketly.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="238">
+              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -114,9 +152,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bucketly.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Browser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="176">
               <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -125,11 +181,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BrowserEntry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="391">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -197,11 +253,11 @@
         <option value="$PROJECT_DIR$/src/Clock.js" />
         <option value="$PROJECT_DIR$/src/Header.js" />
         <option value="$PROJECT_DIR$/src/Intro.js" />
-        <option value="$PROJECT_DIR$/src/Bucketly.css" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/BrowserEntry.js" />
-        <option value="$PROJECT_DIR$/src/Bucketly.js" />
         <option value="$PROJECT_DIR$/src/Browser.js" />
+        <option value="$PROJECT_DIR$/src/Bucketly.css" />
+        <option value="$PROJECT_DIR$/src/Bucketly.js" />
       </list>
     </option>
   </component>
@@ -232,16 +288,17 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1295" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,28 +315,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="package&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/package.json&#10;packag&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/node_modules/reactstrap/package.json&#10;rowser&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/BrowserEntry.js&#10;footer&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Footer.js&#10;lock&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Clock.js&#10;clock&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Clock.js&#10;intro&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Intro.js&#10;tabindex&#9;null&#9;null&#10;header&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/Header.js&#10;filebro&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/FileBrowser.js&#10;inde&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/src/index.js&#10;packa&#9;FILE&#9;file://C:/Users/sjohnsto/dev/github/bucketly/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scratch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="C:\Users\sjohnsto\dev\github\bucketly\node_modules\eslint" />
-    <property name="node.js.selected.package.standard" value="C:\Users\sjohnsto\dev\github\bucketly\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\sjohnsto\dev\bucketly\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="C:\Users\sjohnsto\dev\bucketly\node_modules\eslint" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="C:\Users\sjohnsto\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\182.4129.32\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -303,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Bucketdly Debug">
+  <component name="RunManager" selected="npm.bucketly">
     <configuration name="Bucketdly Debug" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -461,6 +517,9 @@
       <workItem from="1536315683297" duration="1645000" />
       <workItem from="1537091393684" duration="161000" />
       <workItem from="1537092743635" duration="5091000" />
+      <workItem from="1537277818123" duration="788000" />
+      <workItem from="1539189947181" duration="11000" />
+      <workItem from="1539189975632" duration="1514000" />
     </task>
     <task id="LOCAL-00018" summary="Add sample data and basic logic to populate">
       <created>1535980693123</created>
@@ -572,7 +631,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102091000" />
+    <option name="totallyTimeSpent" value="104404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,15 +643,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.25139222" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.1645737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32815966" />
-      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.3991131" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3991131" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3292683" />
@@ -600,7 +660,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50033003" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49966997" weight="0.3991131" />
-      <window_info anchor="bottom" x="521" y="64" width="493" height="695" id="Run" order="10" weight="0.22505543" />
+      <window_info anchor="bottom" x="521" y="64" width="493" height="695" id="Run" order="10" visible="true" weight="0.22411348" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -647,8 +707,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Bucketly.js</url>
-          <line>30</line>
-          <properties lambdaOrdinal="-1" />
+          <line>40</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -772,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -818,22 +870,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bucketly.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BrowserEntry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Browser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="176">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -841,20 +900,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bucketly.js">
+    <entry file="file://$PROJECT_DIR$/src/Bucketly.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BrowserEntry.js">
+    <entry file="file://$PROJECT_DIR$/src/Bucketly.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="238">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
