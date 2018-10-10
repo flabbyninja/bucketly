@@ -17,6 +17,11 @@ body {
     margin: 20px;
 }
 
+.browser {
+    height:350px;
+    overflow-y: scroll;
+}
+
 .browser-entry {
     margin: 5px;
     padding: 5px;
