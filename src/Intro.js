@@ -28,7 +28,7 @@ class Intro extends Component {
                     <Collapse isOpen={this.state.collapse}>
                         <p>A clean, simple interface to browse the content of S3 buckets</p>
                     </Collapse>
-                    <a tabIndex="0" className="btn btn-primary" onClick={this.infoClicked}>{this.state.label}</a>
+                    <button tabIndex="0" className="btn btn-primary" onClick={this.infoClicked}>{this.state.label}</button>
                 </div>
             </div>
         );
