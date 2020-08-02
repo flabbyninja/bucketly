@@ -3,40 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.4",
-    "@fortawesome/free-brands-svg-icons": "^5.3.1",
-    "@fortawesome/free-regular-svg-icons": "^5.3.1",
-    "@fortawesome/free-solid-svg-icons": "^5.3.1",
-    "@fortawesome/react-fontawesome": "^0.1.2",
-    "@types/react": "^16.4.13",
-    "acorn": "^7.1.0",
-    "ajv": "^6.10.2",
-    "aws-sdk": "^2.302.0",
-    "bootstrap": "^4.4.1",
-    "eslint-plugin-react": "^7.11.1",
-    "jquery": "^3.4.1",
-    "popper": "^1.0.1",
-    "popper.js": "^1.16.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-autobind": "^1.0.6",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5",
-    "reactstrap": "^6.4.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "s3rver": "^2.2.5"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   }
 }
